@@ -13,7 +13,7 @@ while True:
     except:
         subtotal = float(input("Enter only the "
         "numerical total collected in this month: $"))
-    break;
+    break
 totalSale = subtotal/(1+(stateTax+countyTax))
 totalStateTax = totalSale*stateTax
 totalCountyTax = totalSale*countyTax
